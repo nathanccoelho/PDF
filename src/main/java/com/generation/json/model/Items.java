@@ -1,11 +1,17 @@
 package com.generation.json.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Items {
 	
 	private String content;
 	
+	@JsonProperty("enumeration_type")
 	private String enumerationType;
 	
+	@JsonProperty("has_sub")
 	private boolean hasSub;
 
 	public String getContent() {

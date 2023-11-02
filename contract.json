@@ -1,4 +1,23 @@
 {
-    "nome": "Nathan",
-    "idade": 23
-}
+    
+      "description": "Olá mundo",
+      "items": [
+        {
+          "content": "#bold#Inquilino(s)#/bold#: Neuber Oliveira, RG: 123.456.789-10, CPF: 470.634.960-50, Dev, Estado Civil: Casado",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Locador(es)#/bold#: Nathan Gabriel, RG: 987.654.321-0, CPF: 938.617.580-08, Dev, Estado Civil: ???????",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 1,
+        "readable": "I"
+      },
+      "title": "Partes"
+    }

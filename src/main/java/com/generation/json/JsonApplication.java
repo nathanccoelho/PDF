@@ -10,9 +10,10 @@ import java.io.IOException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.fasterxml.jackson.databind.JsonNode;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.generation.json.model.Contract;
+import com.generation.json.model.Appendixes;
+import com.generation.json.model.Items;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Paragraph;
@@ -74,15 +75,18 @@ public class JsonApplication {
 		try {
         // Passo 1: Ler o arquivo JSON
         ObjectMapper objectMapper = new ObjectMapper();
-        Contract contract = objectMapper.readValue(new File("contract.json"), Contract.class);
+        Appendixes appendixes = objectMapper.readValue(new File("contract.json"), Appendixes.class);
 
         Document document = new Document();
         PdfWriter.getInstance(document, new FileOutputStream("teste.pdf"));
         document.open();
 
+        Items items = new Items();
         
-        document.add(new Paragraph("Nome: " + contract.getNome()));
-        document.add(new Paragraph("Idade: " + contract.getIdade()));
+        document.add(new Paragraph(appendixes.getDescription()));
+        document.add(new Paragraph( appendixes.getTitle()));
+        //document.add(new Paragraph( appendixes.getItems()));
+       // document.add(new Paragraph( appendixes.getPosition()));
         
 
       
