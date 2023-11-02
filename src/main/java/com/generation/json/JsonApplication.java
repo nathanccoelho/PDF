@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.generation.json.model.Contract;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Paragraph;
@@ -70,22 +71,19 @@ public class JsonApplication {
 	}*/try {
         // Passo 1: Ler o arquivo JSON
         ObjectMapper objectMapper = new ObjectMapper();
-        JsonNode jsonNode = objectMapper.readTree(new File("contract.json"));
+        Contract contract = objectMapper.readValue(new File("contract.json"), Contract.class);
 
-        // Passo 2: Inicializar o documento PDF
         Document document = new Document();
         PdfWriter.getInstance(document, new FileOutputStream("output.pdf"));
         document.open();
 
-        // Passo 3: Extrair os dados do JSON e adicioná-los ao PDF
-        String name = jsonNode.get("name").asText();
+        String name = contract.getNome();
         document.add(new Paragraph("Nome: " + name));
-        String age = jsonNode.get("age").asText();
+        String age = contract.getIdade();
         document.add(new Paragraph("Idade: " + age));
+        
 
-        // Adicione mais campos conforme necessário
-
-        // Passo 4: Fechar o documento PDF
+      
         document.close();
     } catch (IOException | DocumentException e) {
         e.printStackTrace();
