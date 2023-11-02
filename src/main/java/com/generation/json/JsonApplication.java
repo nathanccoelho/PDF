@@ -68,19 +68,21 @@ public class JsonApplication {
             System.out.println("PDF criado com sucesso.");
         } catch (Exception e) {
         	 e.printStackTrace();
-	}*/try {
+	}*/
+		
+		
+		try {
         // Passo 1: Ler o arquivo JSON
         ObjectMapper objectMapper = new ObjectMapper();
         Contract contract = objectMapper.readValue(new File("contract.json"), Contract.class);
 
         Document document = new Document();
-        PdfWriter.getInstance(document, new FileOutputStream("output.pdf"));
+        PdfWriter.getInstance(document, new FileOutputStream("teste.pdf"));
         document.open();
 
-        String name = contract.getNome();
-        document.add(new Paragraph("Nome: " + name));
-        String age = contract.getIdade();
-        document.add(new Paragraph("Idade: " + age));
+        
+        document.add(new Paragraph("Nome: " + contract.getNome()));
+        document.add(new Paragraph("Idade: " + contract.getIdade()));
         
 
       
