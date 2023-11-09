@@ -9,7 +9,7 @@ public class Position {
 	
 	private int numeric;
 	
-	private String readadle;
+	private String readable;
 
 	public int getNumeric() {
 		return numeric;
@@ -19,13 +19,15 @@ public class Position {
 		this.numeric = numeric;
 	}
 
-	public String getReadadle() {
-		return readadle;
+	public String getReadable() {
+		return readable;
 	}
 
-	public void setReadadle(String readadle) {
-		this.readadle = readadle;
+	public void setReadable(String readable) {
+		this.readable = readable;
 	}
+
+	
 	
 	
 }

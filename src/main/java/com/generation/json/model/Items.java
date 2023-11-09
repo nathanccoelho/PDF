@@ -1,9 +1,12 @@
 package com.generation.json.model;
 
+import org.springframework.stereotype.Component;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Component
 public class Items {
 	
 	private String content;
@@ -13,6 +16,8 @@ public class Items {
 	
 	@JsonProperty("has_sub")
 	private boolean hasSub;
+	
+	
 
 	public String getContent() {
 		return content;

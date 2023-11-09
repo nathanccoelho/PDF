@@ -2,15 +2,18 @@ package com.generation.json.model;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Appendixes {
 	
 	private String description;
 	
-	private String title;
-	
+	@Autowired
 	private List<Items> items;
 	
 	private Position position;
+	
+	private String title;
 
 	public String getDescription() {
 		return description;
