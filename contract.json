@@ -1,6 +1,7 @@
 {
-    
-      "description": "Olá mundo",
+  "appendixes": [
+    {
+      "description": "",
       "items": [
         {
           "content": "#bold#Inquilino(s)#/bold#: Neuber Oliveira, RG: 123.456.789-10, CPF: 470.634.960-50, Dev, Estado Civil: Casado",
@@ -20,4 +21,257 @@
         "readable": "I"
       },
       "title": "Partes"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "#bold#Imóvel#/bold#: Nome da rua, 999 - Bairro - Cidade/UF - 00000000  - complemento",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Vagas de Garagem#/bold#: 2",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Locação Residencial#/bold#",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 2,
+        "readable": "II"
+      },
+      "title": "Objeto do Contrato"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "#bold#Aluguel mensal inicial#/bold#: R$ 1.648,00(mil seiscentos e quarenta e oito reais) por mês.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Índice de reajuste#/bold#: IPCA",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Condomínio#/bold#: R$ 577,06 (quinhentos e setenta e sete reais e seis centavos) por mês.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#IPTU#/bold#: R$ 183,87 (cento e oitenta e três reais e oitenta e sete centavos) por mês.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "#bold#Seguro Contra Incêndio#/bold#: 200 (duzentos) vezes o valor do aluguel.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 3,
+        "readable": "III"
+      },
+      "title": "Valores"
+    },
+    {
+      "description": "O Contrato terá prazo de:",
+      "items": [
+        {
+          "content": "30 meses ou mais, com início no dia 02/03/2022 e término em 02/09/2024.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 4,
+        "readable": "IV"
+      },
+      "title": "Prazo da Locação"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "permitidos.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 5,
+        "readable": "V"
+      },
+      "title": "Animais"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Caução",
+          "enumeration_type": "char",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "dinheiro.",
+              "enumeration_type": "roman-lower",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        }
+      ],
+      "position": {
+        "numeric": 6,
+        "readable": "VI"
+      },
+      "title": "Garantias Locatícias"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "no dia 5 do mês subsequente ao da locação",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 7,
+        "readable": "VII"
+      },
+      "title": "Vencimento do Aluguel"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Valor incluído na locação (responsabilidade do Locador, pela quitação do Condomínio).",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 8,
+        "readable": "VIII"
+      },
+      "title": "Condomínio (despesas ordinárias)"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Valor incluído na locação (responsabilidade do #bold#Locador#/bold#, pela quitação do IPTU).",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 9,
+        "readable": "IX"
+      },
+      "title": "IPTU"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Boleto #bold#Moben#/bold#",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 10,
+        "readable": "X"
+      },
+      "title": "Forma de Pagamento"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Contratação e pagamentos feitos pelo Locador, com valor incluso no aluguel (responsabilidade pela quitação do Locador).",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 11,
+        "readable": "XI"
+      },
+      "title": "Seguro Contra Incêndio"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": " 3 meses do valor vigente do aluguel, proporcional ao tempo de contrato remanescente, conforme o art. 4º, da Lei nº 8.245/91. Sem multa, após primeiro ano. ",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 12,
+        "readable": "XII"
+      },
+      "title": "Multa por Rescisão Antecipada da Locação"
+    },
+    {
+      "description": "Foram (ou serão) realizadas vistorias de entrada e saída do IMÓVEL?",
+      "items": [
+        {
+          "content": "Sim",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 13,
+        "readable": "XIII"
+      },
+      "title": "Vistoria"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "content": "Justiça Comum.",
+          "enumeration_type": "char",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 14,
+        "readable": "XIV"
+      },
+      "title": "Eleição de Foro"
     }
+  ]
+}
