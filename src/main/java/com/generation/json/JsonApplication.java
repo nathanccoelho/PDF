@@ -33,20 +33,21 @@ public class JsonApplication {
         AppendixesList appendixesList = objectMapper.readValue(new File("contract.json"), AppendixesList.class);
 
         Document document = new Document();
-        PdfWriter.getInstance(document, new FileOutputStream("teste4.pdf"));
+        PdfWriter.getInstance(document, new FileOutputStream("teste.pdf"));
         document.open();
 
         
         for(Appendixes appendixes: appendixesList.getAppendixes()){
-            document.add(new Paragraph( appendixes.getTitle()));
+                document.add(new Paragraph( appendixes.getTitle()));
         document.add(new Paragraph(appendixes.getDescription()));
         document.add(new Paragraph(appendixes.getPosition().getReadable()));
         document.add(new Paragraph(appendixes.getPosition().getNumeric()));
-        
+
+
         for (Items items : appendixes.getItems()) {
         	document.add(new Paragraph(items.getContent()));
         	document.add(new Paragraph(items.getEnumerationType()));
-        	document.add(new Paragraph(String.valueOf(items.isHasSub())));
+        	//document.add(new Paragraph(String.valueOf(items.isHasSub())));
         }
 
         document.add(new Paragraph("\n\n"));

@@ -7,15 +7,18 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Position {
 
 	
-	private int numeric;
+	private String numeric;
 	
 	private String readable;
 
-	public int getNumeric() {
+	public Position() {
+	}
+
+	public String getNumeric() {
 		return numeric;
 	}
 
-	public void setNumeric(int numeric) {
+	public void setNumeric(String numeric) {
 		this.numeric = numeric;
 	}
 
