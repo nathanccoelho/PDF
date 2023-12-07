@@ -6,6 +6,7 @@ package com.generation.json;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Objects;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -38,15 +39,23 @@ public class JsonApplication {
 
         
         for(Appendixes appendixes: appendixesList.getAppendixes()){
-                document.add(new Paragraph( appendixes.getTitle()));
-        document.add(new Paragraph(appendixes.getDescription()));
-        document.add(new Paragraph(appendixes.getPosition().getReadable()));
-        document.add(new Paragraph(appendixes.getPosition().getNumeric()));
+           document.add(new Paragraph( appendixes.getTitle()));
+           document.add(new Paragraph(appendixes.getDescription()));
+           document.add(new Paragraph(appendixes.getPosition().getReadable()));
+           document.add(new Paragraph(appendixes.getPosition().getNumeric()));
 
-
+            char currentChar = 'a';
         for (Items items : appendixes.getItems()) {
+
+
+            if ("char".equals(items.getEnumerationType())) {
+                items.setEnumerationType(String.valueOf(currentChar));
+                currentChar = (char) (currentChar + 1);
+            }
+
+
         	document.add(new Paragraph(items.getContent()));
-        	document.add(new Paragraph(items.getEnumerationType()));
+        	document.add(new Paragraph(items.getEnumerationType()+"."));
         	//document.add(new Paragraph(String.valueOf(items.isHasSub())));
         }
 
