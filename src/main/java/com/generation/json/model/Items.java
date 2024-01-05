@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Component
 public class Items {
@@ -16,8 +18,16 @@ public class Items {
 	
 	@JsonProperty("has_sub")
 	private boolean hasSub;
-	
-	
+
+	private List<Items> items;
+
+	public List<Items> getItems() {
+		return items;
+	}
+
+	public void setItems(List<Items> items) {
+		this.items = items;
+	}
 
 	public String getContent() {
 		return content;

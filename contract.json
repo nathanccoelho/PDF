@@ -273,5 +273,806 @@
       },
       "title": "Eleição de Foro"
     }
+  ],
+  "clauses": [
+    {
+      "items": [
+        {
+          "content": "Pelo presente Contrato de Locação de Imóvel para fins #bold#Residenciais#/bold#, o Locador dá em locação ao Inquilino o IMÓVEL descrito no Anexo I, conforme termos e condições negociais ali descritos.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Inquilino deve manter o IMÓVEL, objeto da locação, em perfeito estado de higiene, conservação e limpeza, para assim restituí-lo quando finda ou rescindida a locação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O IMÓVEL deverá ser utilizado pelo Inquilino para fins exclusivamente residenciais, sendo-lhe expressamente vedado alterar, mesmo que parcialmente, sua destinação.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "É vedado ao Inquilino manter no IMÓVEL locado, depósito de combustíveis, inflamáveis, explosivos ou outras substâncias, máquinas ou instalações, que possam danificar o IMÓVEL, ou que constituam ara integridade do prédio, ou ainda, que possam prejudicar o sossego, a segurança ou saúde dos vizinhos, sob pena de rescisão motivada do contrato, sem prejuízo de cobrança de multa por inadimplemento contratual.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "É de inteira responsabilidade do Inquilino   obter o alvará de funcionamento do estabelecimento, respondendo, integralmente, pelo pagamento de impostos, contribuições, taxas, multas e emolumentos decorrentes do desempenho de sua atividade.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "O Inquilino, nesta oportunidade, declara que utilizará o Imóvel para a finalidade especificada e exclusiva declarada neste Contrato, bem como, declara que é conhecedor dos usos permitidos pela Municipalidade, correndo por sua conta e risco a mudança de zoneamento, não lhe cabendo nenhum direito   de indenização, sob qualquer pretexto, caso lhe seja impedido o uso do Imóvel pela Municipalidade, ou negado futuro Alvará de funcionamento.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "O presente contrato vigorará pelo prazo mencionado no item @appendixValidity, do Anexo I, deste Contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Declaram as partes ter pleno conhecimento dos Termos e Condições de Uso e Política de Privacidade Moben, desenvolvida pela empresa #bold#Moben Softwares Serviços LTDA (Moben)#/bold#, inscrita no Cadastro Nacional de Pessoas Jurídicas (“CNPJ/ME”) sob nº 35.269.925/0001-17 e sediada na Rua Cônego Eugênio Leite, 623 sala 5, São Paulo/SP, CEP 05414-011.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "A gestão da presente locação será feita diretamente pelo Locador, com auxílio da Plataforma Moben.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "A Moben não exerce papel de intermediação, mas de mero apoio técnico no controle de prazos, gestão de documentos, encaminhamento de avisos e notificações a ambas as partes, razão pela qual, as Partes se comprometem a abster-se de incluí-la em qualquer processo administrativo, arbitral ou judicial que envolva a relação locatícia, objeto deste contrato e se comprometem a abster-se de incluí-la em qualquer processo administrativo, arbitral ou judicial que envolva a relação locatícia, objeto deste contrato.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "As Partes estabelecem que #bold#todas as comunicações#/bold# entre elas, especialmente as notificações mencionadas neste contrato, devem ser feitas por intermédio da Plataforma Moben , renunciando cada uma delas, desde já, ao direito de exigir que a outra parte se valha de outras formas de comunicação, ainda que expressamente previstas em lei.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "As Partes reconhecem que a manutenção do endereço de e-mail atualizado, no cadastro da Plataforma Moben é de suma importância e de sua exclusiva responsabilidade, não se podendo invocar o não recebimento de determinada mensagem, por qualquer razão, como causa do inadimplemento de obrigação assumida neste Contrato, no prazo ali assinalado.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        }
+      ],
+      "position": {
+        "numeric": 1,
+        "readable": "1"
+      },
+      "title": "Disposições Gerais"
+    },
+    {
+      "items": [
+        {
+          "content": "O Inquilino deverá pagar, mensalmente, o Boleto #bold#Moben#/bold# emitido pela Moben, na data de pagamento definida no item @appendixRentDue, do Anexo I.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "O valor do aluguel mencionado no item @appendixFees, a, do Anexo I, será reajustado, anualmente, com base no IPC-A (Índice Nacional de Preços ao Consumidor Amplo - IPCA – IBGE), ou outro índice que vier a substituí-lo, desde que o índice aplicado possua valor positivo, mantendo-se inalterado o valor do aluguel, caso o indicador possua valor negativo na data do reajuste.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Além do valor do aluguel, estarão incluídos no Boleto #bold#Moben#/bold# os valores referentes a IPTU, Condomínio  conforme mencionado no @appendixPayment, do Anexo I, cabendo ao Inquilino suportar eventual majoração do encargo no curso da locação, ainda que caiba ao Locador efetuar o pagamento dessa despesa, junto ao Condomínio e à Municipalidade",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "O Inquilino se compromete a enviar ao Locador o boleto referente à cobrança do IPTU, ato contínuo ao seu recebimento, sujeitando-se ao pagamento de todo o valor devido, acrescido de eventuais multas e encargos incidentes na hipótese de atraso no pagamento decorrente da remessa extemporânea do mencionado boleto.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "O não envio do boleto ao Locador, na forma prevista na Cláusula anterior, sujeitará o Inquilino, excepcionalmente, ao pagamento de todo o valor devido, acrescido de eventuais multas e encargos incidentes na hipótese de atraso no pagamento decorrente da remessa extemporânea do mencionado boleto.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "O Inquilino está ciente, ainda, de que o valor do Condomínio previsto no Anexo I pode sofrer alterações ao longo do presente contrato,",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Despesas Condominiais extraordinárias são arcadas pelo Locador.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locador ficará responsável pela contratação e pagamento do prêmio do Seguro Contra Incêndio, com importância assegurada no valor mínimo correspondente a #bold#200#/bold# (#bold#duzentos#/bold#) aluguéis, conforme expresso no @appendixFees, do Anexo I, nos termos do artigo 22, VIII, da Lei nº 8.245/1991. Cujo valor será incluído no Boleto #bold#Moben#/bold#",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso o Inquilino não efetue o pagamento dos encargos sob sua responsabilidade, no prazo estabelecido, fica o Locador autorizado a fazê-lo, se assim desejar, inclusive em relação aos pagamentos futuros, impondo-se ao Inquilino o dever de indenizar o Locador por todos os valores pagos, aplicando-se também a Multa por Atraso estipulada neste Contrato, conjuntamente com as penalidades aplicadas pelos credores de mencionados encargos , independentemente do ajuizamento da competente ação de despejo, com fulcro no artigo 9º, III, da Lei nº 8.245/1991.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O atraso do pagamento do aluguel e seus encargos acarretará a cobrança de multa de 10% (dez por cento) sobre o valor total devido, corrigido com base no IPC-A (Índice Nacional de Preços ao Consumidor Amplo - IPCA – IBGE) ou outro índice que vier a substituí-lo, e juros de 1% ao mês, calculados <i>pro rata die</i>.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso o Inquilino não receba os dados para pagamento em até 5 (cinco) dias antes do vencimento do aluguel, deverá comunicar, imediatamente, a Moben, para que providencie novo documento de cobrança.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Em hipótese alguma, poderá o Locador receber o aluguel por outros meios, que não pelo estipulado no item @appendixPayment, do Anexo I, salvo expressa autorização da Moben, por escrito, em sentido contrário.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 2,
+        "readable": "2"
+      },
+      "title": "Aluguel e Encargos Locatícios"
+    },
+    {
+      "items": [
+        {
+          "content": "O Inquilino oferece ao Locador, a título de caução em dinheiro, a importância equivalente ao valor de 4936.5756(quatro mil novecentos e trinta e seis reais e cinquenta e oito centavos) a ser depositada previamente ao recebimento das chaves, em conta poupança conjunta, não solidária, em nome das Partes, nos exatos termos do art. 38, §2º, da Lei nº 8.245/91 e na Resolução nº 9, de 13/08/1979, do Banco Nacional da Habitação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "A caução em referência tem por finalidade garantir ao Locador o adimplemento das obrigações assumidas pelo Inquilino neste Contrato, tanto com relação ao pagamento dos aluguéis e dos encargos locatícios, quanto no que tange à manutenção do estado de conservação do IMÓVEL, conforme as Vistorias de Entrada e Saída.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Os valores depositados na conta poupança mencionada na cláusula 3.1 somente poderão ser retirados nas seguintes hipóteses:",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "pelo Inquilino, com anuência por escrito do Locador;",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "pelo Locador, com anuência por escrito do Inquilino;",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "pelo Inquilino, contra apresentação da quitação, pelo Locador, das obrigações do primeiro no contrato que deu origem ao depósito;",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "pelo Inquilino ou pelo Locador, devidamente autorizado por sentença judicial transitada em julgado.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "O montante acima mencionado será utilizado em todas as hipóteses em que se façam necessários recursos provenientes do Inquilino, devendo ser por este reposto, imediatamente, após a utilização.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Finda a Locação, com a aprovação da vistoria final e entrega das chaves, observados os requisitos constantes neste Contrato, o Inquilino realizará o saque do montante depositado com os rendimentos que foram apurados.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 3,
+        "readable": "3"
+      },
+      "title": "Da Garantia"
+    },
+    {
+      "items": [
+        {
+          "content": "Conforme expressamente disposto nos Termos e Condições de Uso e Política de Privacidade Moben, o Locador poderá utilizar as ferramentas disponíveis da Moben para:",
+          "enumeration_type": "char",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "após 5 (cinco) dias de atraso no pagamento do aluguel e/ou seus encargos, encaminhar notificação de cobrança ao Inquilino e ",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "após 5 (cinco) dias de atraso no pagamento do aluguel e/ou seus encargos, encaminhar notificação de cobrança ao Inquilino  no cadastro de inadimplentes, que integram o Sistema de Proteção ao Crédito, comunicando o Inquilino acerca da adoção dessa providência.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "As notificações mencionadas na cláusula anterior poderão ser encaminhadas pela Moben, mediante autorização expressa do Locador.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O crédito decorrente do não pagamento do aluguel, bem como de encargos acessórios, tais como taxas e despesas de condomínio, constitui título executivo extrajudicial, nos termos do art. 784, do Código de Processo Civil.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 4,
+        "readable": "4"
+      },
+      "title": "Inadimplemento"
+    },
+    {
+      "items": [
+        {
+          "content": "As despesas de telefone, internet, TV a cabo, energia, gás, água e esgoto e demais despesas, tributos e taxas incidentes sobre o IMÓVEL, que não estejam incluídas nos Encargos Locatícios, deverão ser pagas diretamente pelo Inquilino aos respectivos fornecedores.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Inquilino deverá transferir para seu nome e, se necessário, contratar os Serviços de Utilidade Pública diretamente às concessionárias, devendo comprovar a quitação destes valores sempre que solicitado.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "A indisponibilidade dos serviços acima mencionados não será justificativa para alterar a data de início da Locação, incumbindo ao Inquilino solicitar sua contratação e/ou religamento.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Pendências anteriores à Locação deverão ser quitadas pelo Locador no prazo de 2 dias úteis da notificação nesse sentido. O descumprimento pelo Locador dá o direito ao Inquilino de efetuar o pagamento e solicitar o reembolso, que poderá ser feito mediante desconto em parcelas vincendas do aluguel.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Eventuais multas e majorações de quaisquer dos encargos motivada pela retenção, pelo Inquilino, dos respectivos avisos, ou de notificações e intimações do poder público, poderão ser cobradas juntamente com os aluguéis, no Boleto #bold#Moben#/bold#.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 5,
+        "readable": "5"
+      },
+      "title": "Das Taxas e Serviços de Utilidade Pública"
+    },
+    {
+      "items": [
+        {
+          "content": "O Locador poderá efetuar visitas ao IMÓVEL, sempre que assim desejar, independentemente de justificativa ou motivação, por si ou terceiros indicados, interessados em adquirir o IMÓVEL, ou não, mediante prévio agendamento, com, no mínimo, 7 (sete) dias de antecedência, sempre em horário comercial, sem que tal visita implique em qualquer aprovação ou concordância com eventuais irregularidades cometidas pelo Inquilino encontradas pelo Locador na ocasião.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 6,
+        "readable": "6"
+      },
+      "title": "Visitas"
+    },
+    {
+      "items": [
+        {
+          "content": "Serão feitas Vistorias de Entrada e Saída para registrar as condições do IMÓVEL no início e fim da Locação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso uma Parte encontre qualquer divergência, deverá apontá-la e comprová-la, com fotos, no prazo de 10 (dez) dias do recebimento do laudo, sob pena de aceitar integralmente a vistoria apresentada.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locador somente terá a responsabilidade de reparar Danos/Vícios Aparentes do IMÓVEL anteriores ao início da locação quando afetarem a segurança e a finalidade a que se destina o IMÓVEL.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Em caso de vícios ocultos, não identificados no momento da Vistoria de Entrada ou em função do fornecimento de energia, água ou gás não estar ativo, deverá o Locador realizar o reparo ou autorizar que o Inquilino o realize, obedecidos os prazos estipulados abaixo.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "O Inquilino deverá comunicar a necessidade de reparo e o Locador deverá responder no prazo de 15 dias, contados da ciência da existência do vício, da providência a ser adotada para realização do reparo.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "O silêncio do Locador no prazo estipulado na cláusula 7.4.1 será interpretado como anuência, autorizando o Inquilino a efetuar os reparos, abatendo-se os valores despendidos do aluguel vencido imediatamente após a comprovação de referidas despesas.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "As partes poderão, de comum acordo, dispensar a realização do reparo, quando esta não afetar a habitabilidade do imóvel.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Finda a locação, independente do motivo, o Inquilino deverá:",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "Tomar todas as ações necessárias para cancelamento dos serviços contratados em seu nome e comprovar inexistência de débitos perante os concessionários de serviços públicos;",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "desocupar o IMÓVEL de pessoas e objetos;",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "certificar-se que não tem nenhuma pendência sobre as demais responsabilidades assumidas neste Contrato e que o IMÓVEL não tem nenhum outro impedimento; e",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "notificar o Locador para realização da vistoria de saída (“Laudo de Vistoria Final”), a qual deverá ser feita em até 2 (dois) dias úteis, a contar do recebimento de referida notificação.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Caso o Inquilino não comprove a quitação integral de suas obrigações, o Locador poderá recusar-se a realizar a vistoria de saída e a receber as chaves, e o Inquilino continuará sendo responsável pelos aluguéis e Encargos Locatícios até que atenda integralmente aos requisitos para realização da vistoria de saída.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locador deverá analisar a vistoria de saída e informar acerca de seu aceite à devolução do IMÓVEL no prazo de 7 (sete) dias.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso o Locador não se manifeste neste prazo, as obrigações do Inquilino serão tidas como cumpridas, considerando-se rescindido o presente contrato, para todos os fins de Direito.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Na hipótese do Laudo de Vistoria Final reportar danos causados ao IMÓVEL ou a bens móveis que integrem a presente Locação, o Locador poderá recusar-se a assinar o termo de rescisão do contrato até que o Inquilino reponha o IMÓVEL nas mesmas condições em que o recebeu, ressalvados os desgastes decorrentes de seu uso normal, correndo o aluguel e Encargos Locatícios por conta do Inquilino até que fiquem plenamente satisfeitas as exigências previstas neste Contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Fica desde já convencionado que, se o Inquilino não efetuar os reparos devidos no prazo de 10 (dez) dias após a notificação do Locador neste sentido, este poderá providenciar todos os reparos necessários e proceder à reposição dos objetos faltantes ou danificados, no mesmo padrão e qualidade dos originais, devendo o Inquilino reembolsá-lo por todas as despesas incorridas, acrescida de uma taxa de administração de 10% (dez por cento) sobre o valor das despesas, além de pagar o aluguel e os Encargos Locatícios devidos pelo tempo em que perdurarem tais reparos e reposições.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso o IMÓVEL fique impedido de ser realugado graças à grande extensão dos danos, o Locador deverá ser indenizado pelo que potencialmente deixou de ganhar.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Fica desde já convencionado que, caso o IMÓVEL tenha sido entregue com pintura nova, o Inquilino deverá devolvê-lo com pintura nova, nas mesmas características e qualidade da pintura existente no início da Locação, independentemente do nível de desgaste decorrentes de seu uso normal. Na hipótese do IMÓVEL ter sido entregue sem pintura nova, o Inquilino deverá devolvê-lo em condições compatíveis com as registradas no Laudo de Vistoria, salvo desgaste decorrente do uso normal.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Este contrato só será considerado encerrado ou rescindido e o Inquilino liberado de suas obrigações mediante a formalização de Termo de Vistoria de Saída e termo de rescisão, devidamente assinados pelas Partes, atestando a devolução das chaves e o cumprimento de todas as obrigações contratuais assumidas no âmbito deste Contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Ficam aqui ressalvadas as despesas e/ou infrações que o Inquilino der causa durante a presente locação, que não sejam de conhecimento do Locador e forem exigidas após o término da vigência deste Contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 7,
+        "readable": "7"
+      },
+      "title": "Vistorias"
+    },
+    {
+      "items": [
+        {
+          "content": "As modificações e benfeitorias realizadas no IMÓVEL, sejam elas necessárias, úteis e voluptuárias, deverão ter seu escopo detalhado e submetidas a prévia e expressa autorização, or escrito, do Locador, não possuindo o Inquilino, em qualquer hipótese, qualquer direito a retenção das benfeitorias, tampouco do IMÓVEL, em razão das benfeitorias realizadas, salvo expressa manifestação do Locador em sentido contrário.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locatário não terá o direito à indenização, por quaisquer benfeitorias úteis ou voluptuárias implementadas no IMÓVEL, ainda que expressamente autorizadas pelo Locador.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locador poderá exigir a remoção das benfeitorias úteis ou voluptuárias promovidas pelo Inquilino, quando não autorizadas, antes da devolução das chaves do IMÓVEL, a fim de que, com exceção das benfeitorias necessárias, o IMÓVEL seja restituído no estado em que fora locado conforme descrição constante no Laudo de Vistoria Inicial ressalvadas as deteriorações decorrentes do uso normal do bem.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Salvo expressa manifestação das Partes em sentido contrário, as benfeitorias necessárias introduzidas no IMÓVEL pelo Inquilino, ou seja, aquelas cuja realização seja imprescindível à manutenção de sua habitabilidade, serão indenizáveis, desde que previamente comunicadas ao Locador e este não tenha tomado as ações necessárias para realização das benfeitorias.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Quando houver vícios que comprometem as condições de uso do IMÓVEL, mas não o tornam inabitável, tais como vazamentos ou infiltrações graves, entende-se que é necessário um reparo urgente, de responsabilidade do Locador, que deverá tomar as providências para realização do reparo em até 3 (três) dias úteis contados do recebimento de notificação nesse sentido, encaminhada pelo Inquilino.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "Caso o Locador não se manifeste no prazo indicado na Cláusula anterior, o Inquilino poderá apresentar a ele, pelo menos, 3 (três) orçamentos, realizando, às suas expensas, o reparo pelo preço mais baixo, descontando-se o valor pago dos aluguéis subsequentes, mediante apresentação de comprovantes de pagamento e da solução dos problemas.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Quando houver vícios que comprometem as condições de uso do IMÓVEL, sem a possibilidade de reparos paliativos e que, diante da necessidade de conter maiores danos, como rompimento de canos com grande vazamento, curto circuito na rede elétrica ou vazamento de gás com risco de incêndio, entende-se que é necessário um reparo emergencial, fica o Inquilino obrigado a efetuar os reparos, abatendo-se os valores despendidos do aluguel vencido imediatamente após a comprovação de referidas despesas.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Inquilino deverá reparar prontamente os danos por ele causados ao IMÓVEL, às suas instalações ou a bens móveis e acessórios, independente de culpa.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "No caso de serem constatados, no curso da locação, quaisquer defeitos ocasionados pelo mau uso ou conservação do IMÓVEL, o Inquilino será informado para realizar prontamente os reparos necessários, o que desde já, compromete-se a fazer num prazo de 30 (trinta) dias para execução dos serviços.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Na hipótese dos serviços não serem realizados, ou se for constatada morosidade para sua consecução, o Inquilino, desde já, autoriza o Locador a efetuá-los às suas expensas, a preços do mercado, cujos gastos serão adicionados ao valor do primeiro aluguel vincendo após o início das obras, fazendo dele parte integrante, sujeito às penalidades previstas neste Instrumento, principalmente em caso de mora quanto ao pagamento, sem prejuízo da multa Contratual ajustada por inadimplência de suas obrigações.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 8,
+        "readable": "8"
+      },
+      "title": "Benfeitorias e Reparos"
+    },
+    {
+      "items": [
+        {
+          "content": "São vedadas a cessão, a sublocação e o empréstimo total ou parcial do IMÓVEL locado, no todo ou em parte, ainda que por meio de aplicativos de hospedagem (p. ex. Airbnb).",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "É terminantemente vedada a cessão a terceiros do presente contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O descumprimento, pelo Inquilino, do disposto neste capítulo é motivo de rescisão imediata do presente contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 9,
+        "readable": "9"
+      },
+      "title": "Cessão, Sublocação e Empréstimo"
+    },
+    {
+      "items": [
+        {
+          "content": "Quaisquer alterações dos termos aqui dispostos só serão consideradas parte integrante deste Contrato se realizadas pelas Partes por meio da Plataforma, de acordo com suas regras de utilização.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 10,
+        "readable": "10"
+      },
+      "title": "Aditamento"
+    },
+    {
+      "items": [
+        {
+          "content": "No caso de pretender alienar o IMÓVEL, obriga-se o Locador a dar preferência ao Inquilino em igualdade de condições com terceiros proponentes, com fulcro nos artigos 27 e seguintes da Lei 8.245/91.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "O exercício da preferência previsto na cláusula anterior será assim formalizado:",
+              "enumeration_type": "char",
+              "has_sub": true,
+              "items": [
+                {
+                  "content": "O Locador encaminhará notificação ao Inquilino indicando preço e condições de pagamento.",
+                  "enumeration_type": "numeric",
+                  "has_sub": false,
+                  "items": []
+                },
+                {
+                  "content": "O Inquilino, nos 30 (trinta) dias subseqüentes ao recebimento da referida notificação, deverá encaminhar resposta por escrito ao Locador, manifestando sua intenção de exercer o direito de preferência, sendo seu silêncio considerado desinteresse.",
+                  "enumeration_type": "numeric",
+                  "has_sub": false,
+                  "items": []
+                },
+                {
+                  "content": "Manifestado o desejo de exercer a preferência, deverá o Inquilino notificar o Locador para, dentro de 30 (trinta) dias, em dia, hora e local mencionados na notificação, comparecer em cartório e outorgar a escritura, seja de venda e compra ou de compromisso de venda e compra, dentro das condições por ele estabelecidas.",
+                  "enumeration_type": "numeric",
+                  "has_sub": false,
+                  "items": []
+                },
+                {
+                  "content": "Em não comparecendo o Locador vendedor, deverá o Inquilino exibir o dinheiro ou cheque administrativo ao serventuário, lavrando-se a necessária escritura de comparecimento e declaração, que servirá, em ação judicial futura, para a salvaguarda dos direitos do preferente.",
+                  "enumeration_type": "numeric",
+                  "has_sub": false,
+                  "items": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "numeric": 11,
+        "readable": "11"
+      },
+      "title": "Venda ou Alienação"
+    },
+    {
+      "items": [
+        {
+          "content": "Ao término da Locação, na data mencionada no item @appendixValidity, do Anexo I, o Inquilino deverá restituir o IMÓVEL ao Locador, livre e desimpedido de pessoas e coisas, nas mesmas condições em que o recebeu e que foram registradas na Vistoria de Entrada, salvo deteriorações decorrentes do uso normal, independentemente de notificação ou interpelação judicial ou extrajudicial, ressalvada a hipótese de prorrogação da locação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso o Inquilino deseje prorrogar o Prazo de Locação, deverá notificar o Locador de sua intenção até 30 (trinta) dias antes do término do Prazo de Locação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Locador deverá se manifestar sobre a notificação mencionada na cláusula anterior, no prazo de 7 (sete) dias, devendo seu silêncio ser interpretado como anuência e renovação da locação.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": [
+            {
+              "content": "O silêncio do Locador acarretará a prorrogação do contrato por prazo indeterminado, nos termos do artigo 46, § 1º, da Lei nº 8.245/1991, mantidas as demais cláusulas e condições do contrato.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "Caso estejam de acordo com a prorrogação, as Partes deverão firmar termo aditivo ao Contrato ou um novo instrumento, permanecendo o presente Contrato em vigor até a data de sua efetiva celebração.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "Caso não estejam de acordo com a prorrogação da avença, o IMÓVEL deve ser desocupado e restituído, nos termos da cláusula 12.1.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Se o Inquilino rescindir a locação no período compreendido entre a assinatura desse Contrato e a Data de Início, deverá pagar multa no valor de um aluguel, sem prejuízo do dever de reembolsar o Locador por eventuais despesas assumidas para a entrega do Imóvel, como por exemplo, mas não se limitando a comissão de corretores, emissão de certidões, custas e emolumentos cartorários, e etc.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Na hipótese de devolução antecipada do IMÓVEL, o Inquilino deverá comunicar o Locador de sua intenção, por escrito, com, no mínimo, 30 (trinta) dias de antecedência da data em que pretender devolver o IMÓVEL.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Se o Inquilino desejar rescindir o Contrato antes do prazo de 12 (doze) meses, contados da Data de Início, deverá pagar multa no valor de 3 (três) aluguéis, reduzida proporcionalmente pelo prazo já cumprido do contrato, sem a necessidade de cumprimento de aviso prévio.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "O valor da multa será calculado pela equação: divisão do prazo restante para cumprimento do contrato pelo número de meses do contrato, multiplicado pelo valor total da multa aplicável.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "Após o primeiro ano de Locação, o Inquilino poderá rescindir este Contrato sem multa, desde que envie aviso prévio, com antecedência mínima de 30 (trinta) dias.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            },
+            {
+              "content": "Em caso de descumprimento do aviso prévio, o Inquilino deverá pagar o valor integral equivalente a um mês de aluguel vigente.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        }
+      ],
+      "position": {
+        "numeric": 12,
+        "readable": "12"
+      },
+      "title": "Rescisão, Devolução do IMÓVEL e Descumprimento do Contrato"
+    },
+    {
+      "items": [
+        {
+          "content": "Caso uma das partes descumpra qualquer disposição deste Contrato, e não resolva o descumprimento no prazo de 15 (quinze) dias, contados da notificação nesse sentido, a outra Parte poderá exigir o pagamento de multa no valor de 3 (três) aluguéis vigentes.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Caso existam no contrato penalidades específicas, estas deverão ser aplicadas ao invés das disposições do item acima, ressalvado o complemento da multa via Arbitragem , a depender da extensão do dano.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 13,
+        "readable": "13"
+      },
+      "title": "Descumprimento Contratual"
+    },
+    {
+      "items": [
+        {
+          "content": "Fica eleito o Foro da comarca da situação do imóvel, para dirimir eventuais dúvidas, litígios e controvérsias decorrentes deste Contrato.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 14,
+        "readable": "14"
+      },
+      "title": "Eleição de Foro"
+    },
+    {
+      "items": [
+        {
+          "content": "Obriga-se o Inquilino a satisfazer a todas as intimações dos poderes constituídos, assumindo toda a responsabilidade por quaisquer penalidades que incorram em razão de multas ou penalidades decorrentes do Contrato de Locação de Imóvel, eximindo, desde já, o Locador de quaisquer ônus, aprovações ou exigências.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "O Inquilino se compromete a fazer chegar às mãos do Locador os avisos e comunicações, oficiais ou não, que digam respeito ao IMÓVEL, sob pena de responder pelos eventuais prejuízos e danos que causar sua desídia, independentemente de qualquer outra compensação que neste se estipula para fim geral ou especial.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "As Partes estão cientes e de acordo que devem sempre manter o cadastro atualizado (telefone, email, endereço, etc.) na Plataforma Moben.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "Caso haja mudança nos meios de contato das Partes sem a devida atualização na Plataforma, todas as comunicações enviadas para os contatos que as Partes forneceram serão consideradas como entregues e válidas.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "As Partes desde já autorizam que toda e qualquer comunicação ou notificação extrajudicial, judicial ou arbitral será feita por e-mail, incluindo citações e intimações.",
+          "enumeration_type": "numeric",
+          "has_sub": true,
+          "items": [
+            {
+              "content": "Caso o Inquilino receba qualquer comunicação emitida relacionada ao IMÓVEL, deverá encaminhar ao Locador, sob pena de ser responsabilizado pelos prejuízos decorrentes da omissão de envio da Notificação.",
+              "enumeration_type": "numeric",
+              "has_sub": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "content": "Havendo mais de um Locador e/ou Inquilino, todos declaram-se respectivamente solidários entre si para todos os fins relacionados ao Contrato, concedendo poderes especiais para transigir, desistir, renunciar ao direito, receber, dar quitação, firmar compromisso e assinar declaração de hipossuficiência econômica.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        },
+        {
+          "content": "Este Contrato é assinado digitalmente pelas Partes e pelas testemunhas, por meio do certificado digital Docusign, disponibilizado na Plataforma Moben, e representa o acordo integral das Partes com relação às matérias aqui tratadas, prevalecendo sobre quaisquer documentos ou tratativas anteriores em contrário.",
+          "enumeration_type": "numeric",
+          "has_sub": false,
+          "items": []
+        }
+      ],
+      "position": {
+        "numeric": 15,
+        "readable": "15"
+      },
+      "title": "Disposições Finais"
+    }
   ]
 }
